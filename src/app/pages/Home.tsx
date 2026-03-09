@@ -59,7 +59,7 @@ export function Home() {
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Premium Kfz-Service, dem Sie vertrauen können
+              Kfz-Service, dem Sie vertrauen können
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
               Fachkundige Techniker, modernste Technologie und ehrlicher Service. 

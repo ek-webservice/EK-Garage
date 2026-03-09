@@ -13,7 +13,7 @@ export function Footer() {
               <span className="text-blue-500"> Garage</span>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              Premium Kfz-Service, dem Sie vertrauen können. Fachkundige Techniker, moderne Technologie und ehrlicher Service seit 2010.
+              Kfz-Service, dem Sie vertrauen können. Fachkundige Techniker, moderne Technologie und ehrlicher Service seit 2010.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors">
@@ -64,11 +64,31 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Leistungen</h3>
             <ul className="space-y-2">
-              <li className="text-gray-400 text-sm">Fahrzeuginspektion</li>
-              <li className="text-gray-400 text-sm">Wartungsservice</li>
-              <li className="text-gray-400 text-sm">Bremsenservice</li>
-              <li className="text-gray-400 text-sm">Reifenservice</li>
-              <li className="text-gray-400 text-sm">Fahrzeugdiagnose</li>
+              <li>
+                <Link to="/services" className="text-gray-400 text-sm">
+                Fahrzeuginspektion
+                </Link>
+              </li>
+              <li>
+                <Link to="/services" className="text-gray-400 text-sm">
+                Wartungsservice
+                </Link>
+              </li>
+              <li>
+                <Link to="/services" className="text-gray-400 text-sm">
+                  Bremsenservice
+                </Link>
+              </li>
+              <li>
+                <Link to="/services" className="text-gray-400 text-sm">
+                Reifenservice
+                </Link>
+              </li>
+              <li>
+                <Link to="/services" className="text-gray-400 text-sm">
+                Fahrzeugdiagnose
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -71,7 +71,7 @@ export function Imprint() {
                 <p>Diese Website wurde entwickelt von <strong className="text-blue-500">EK-Webservice</strong></p>
                 <p>Professionelle Web-Lösungen für Unternehmen</p>
                 <p className="mt-2">
-                  <a href="https://ek-webservice.de" className="text-blue-500 hover:text-blue-400">www.ek-webservice.de</a>
+                  <a href="https://ek-webservice.de" className="text-blue-500 hover:text-blue-400">www.ek-webservice.com</a>
                 </p>
               </div>
             </div>
