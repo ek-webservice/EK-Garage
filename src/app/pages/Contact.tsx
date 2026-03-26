@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
-import { useLocation } from "react-router";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import {useEffect, useState} from "react";
+import {useLocation} from "react-router-dom";
+import {Clock, Mail, MapPin, Phone} from "lucide-react";
+
 
 export function Contact() {
   const location = useLocation();

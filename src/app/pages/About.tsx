@@ -1,4 +1,4 @@
-import { Shield, Award, Heart, Zap } from "lucide-react";
+import {Award, Heart, Shield, Zap} from "lucide-react";
 
 export function About() {
   const values = [

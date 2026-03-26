@@ -1,14 +1,6 @@
-import { useNavigate } from "react-router";
-import { 
-  Gauge, 
-  Wrench, 
-  Droplet, 
-  CircleDot, 
-  Wind, 
-  Activity,
-  ClipboardCheck,
-  ArrowRight
-} from "lucide-react";
+import {useNavigate} from "react-router-dom";
+import {Activity, ArrowRight, CircleDot, ClipboardCheck, Droplet, Gauge, Wind, Wrench} from "lucide-react";
+
 
 export function Services() {
   const navigate = useNavigate();

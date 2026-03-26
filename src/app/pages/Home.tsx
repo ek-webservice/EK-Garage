@@ -1,5 +1,5 @@
-import { Link } from "react-router";
-import { ArrowRight, Shield, Award, Users, Wrench, Gauge, Droplet, Wind } from "lucide-react";
+import {ArrowRight, Award, Droplet, Gauge, Shield, Users, Wind, Wrench} from "lucide-react";
+import {Link} from "react-router-dom";
 
 export function Home() {
   const services = [
